@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+:root{
+--primary-color:linear-gradient(rgba(124,28,128,0.6588235294117647 ), #ff6057);
+--text-white:white;
+--secondary-color:#ff6057
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+li{
+list-style-type: none;
+}
+a{
+  text-decoration: none ;
+}
+.App{
+  background-image: url("./img/shap1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 480px) {
+  p{
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+    }
+}

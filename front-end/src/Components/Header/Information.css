@@ -1,0 +1,23 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.line {
+  border-bottom: 3px solid var(--secondary-color);
+  width: 15%;
+}
+.link {
+  color: var(--secondary-color);
+}
+@media (max-width: 480px) {
+  .details {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 769px){
+  .details {
+    font-size: 7px;
+  }
+}

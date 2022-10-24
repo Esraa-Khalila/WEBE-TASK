@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem;
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.menu_item{
+    display: flex;
+    justify-content: space-between;
+}
+.menu_item li{
+    padding-left: 20px;
+}
+@media (max-width: 480px) {
+    .navbar{
+        display: none;
+    }
+}
+  @media (max-width: 1024px) {
+    .navbar{
+        display: none;
+       
+    }
+  }

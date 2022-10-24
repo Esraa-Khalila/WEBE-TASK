@@ -1,0 +1,16 @@
+.btn {
+  color: var(--text-white);
+  padding: .8rem;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  border-radius: .4rem;
+  width: 178px;
+}
+.btn__primary {
+  background-image: var(--primary-color);
+}
+.btn__secondary {
+  background-color: var(--text-white);
+  color: black;
+}

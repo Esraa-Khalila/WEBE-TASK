@@ -1,0 +1,41 @@
+.overview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Info_overview {
+  text-align: center;
+  width: 35%;
+}
+.overview img {
+  width: 100%;
+}
+
+@media (max-width: 769px) {
+    .overview {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 80px;
+      font-size: 3px;
+    }
+    .overview img {
+      width: 300px;
+    }
+    .Info_overview {
+      width: 50%;
+      font-size: 3px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+  .overview {
+    flex-direction: column;
+  }
+  .overview img {
+    width: 200px;
+  }
+  .Info_overview {
+    width: 60%;
+    font-size: 5px;
+  }
+}

@@ -1,0 +1,38 @@
+.counter {
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+.number {
+  color: var(--secondary-color);
+  font-size: 50px;
+  font-weight: bolder;
+}
+.title {
+  text-align: center;
+  margin-top: 120px;
+}
+
+@media (max-width: 769px) {
+  .counter {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+  }
+  .title {
+    text-align: left;
+    margin-left: 60px;
+  }
+
+}
+@media (max-width: 480px) {
+    .counter {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+      }
+      .title {
+        text-align: left;
+        margin-left: 70px;
+      }
+}

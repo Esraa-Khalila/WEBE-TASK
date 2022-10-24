@@ -1,0 +1,24 @@
+.clinet {
+  display: flex;
+  justify-content: flex-end;
+  margin: 130px;
+}
+
+@media (max-width: 769px) {
+    .clinet {
+        flex-direction: column;
+      }
+  .clinet img {
+    width: 100px;
+    margin:10px;
+  }
+}
+@media (max-width: 480px) {
+  .clinet {
+    flex-direction: column; margin: 100px;
+  }
+  .clinet img {
+    width: 100px;
+   
+  }
+}
